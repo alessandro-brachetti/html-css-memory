@@ -10,65 +10,50 @@ body {
 }
 
 .container {
+  height: 800px;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
-h1 {
-  text-align: center;
+header h1 {
   font-size: 60px;
-  color: #FFFFFF;
+  color: #FFF;
   text-shadow: black 1px 1px;
 }
-
-main {
-  position: relative;
-}
-
-.mt-1 {
-  margin-top: 1em;
+.row {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .card {
+  display: inline-block;
   background-image: url('../img/pattern.png');
   background-size: contain;
   background-position: center;
   width: 200px;
   height: 230px;
   border-radius: 10px;
-  position: absolute;
-}
-
-.row1 {
-  top: 0;
-}
-
-.row2 {
-  top: 260px;
-}
-
-.row3 {
-  top: 520px;
-}
-
-.first {
-  left: 320px;
-}
-
-.second {
-  left: 550px;
-}
-
-.third {
-  left: 780px;
-}
-
-.fourth {
-  left: 1010px;
-}
-
-.block {
+  margin-left: 15px;
+  box-shadow: 0 0 5px 1px grey;
   position: relative;
+}
+
+.card:hover .overlay {
+  width: 100%;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
 }
 
 .overlay {
@@ -84,53 +69,37 @@ main {
   border-radius: 10px;
 }
 
-.block:hover .overlay {
-  width: 100%;
-}
-
-.frontside {
-  text-align: center;
-}
-
-.frontside h6 {
-  font-size: 20px;
+.picture h6 {
+  font-size: 25px;
   text-shadow: black 1px 1px;
 }
 
-.frontside img {
-  padding-top: 10px;
+.picture img {
+  width: 160px;
+  height: 180px;
+  padding-top: 15px;
 }
 
-.pic1 {
+.tram {
   color: #3366ff;
 }
 
-.pic2 {
+.tractor {
   color: #E67919;
 }
 
-.pic3 {
+.submarine {
   color: #009900;
 }
 
-.pic4 {
+.ship {
   color: #ffcc00;
 }
 
-.pic5 {
+.bike {
   color: #990000;
 }
 
-.pic6 {
+.balloon {
   color: #E61986;
-}
-
-footer {
-  position: relative;
-}
-
-h5 {
-  position: absolute;
-  top: 780px;
-  left: 690px;
 }
