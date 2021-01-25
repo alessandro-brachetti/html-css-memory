@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ADD8E6;
+  font-family: 'Potta One', cursive;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-shadow: black 1px 1px;
+}
+
+main {
+  position: relative;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.card {
+  background-image: url('../img/pattern.png');
+  background-size: contain;
+  background-position: center;
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.row1 {
+  top: 0;
+}
+
+.row2 {
+  top: 260px;
+}
+
+.row3 {
+  top: 520px;
+}
+
+.first {
+  left: 320px;
+}
+
+.second {
+  left: 550px;
+}
+
+.third {
+  left: 780px;
+}
+
+.fourth {
+  left: 1010px;
+}
+
+.block {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+.block:hover .overlay {
+  width: 100%;
+}
+
+.frontside {
+  text-align: center;
+}
+
+.frontside h6 {
+  font-size: 20px;
+  text-shadow: black 1px 1px;
+}
+
+.frontside img {
+  padding-top: 10px;
+}
+
+.pic1 {
+  color: #3366ff;
+}
+
+.pic2 {
+  color: #E67919;
+}
+
+.pic3 {
+  color: #009900;
+}
+
+.pic4 {
+  color: #ffcc00;
+}
+
+.pic5 {
+  color: #990000;
+}
+
+.pic6 {
+  color: #E61986;
+}
+
+footer {
+  position: relative;
+}
+
+h5 {
+  position: absolute;
+  top: 780px;
+  left: 690px;
+}
